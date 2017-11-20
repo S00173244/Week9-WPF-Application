@@ -15,13 +15,13 @@
         <Label x:Name="lbl_sTotal" Content="Score total:" HorizontalAlignment="Left" Margin="118,96,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <Label x:Name="lbl_score" Content="Score:" HorizontalAlignment="Left" Margin="118,65,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <Label x:Name="lbl_average" Content="Average:" HorizontalAlignment="Left" Margin="118,158,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,68,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox_Copy" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox_Copy1" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,127,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox_Copy2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,162,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="291,53,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="button_Copy" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" Width="75" />
-        <Button x:Name="button_Copy1" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="193,261,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txt_score" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,68,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_sTotal" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,96,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_sCount" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,127,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" FontFamily="Segoe UI Emoji" />
+        <TextBox x:Name="txt_average" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,162,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_add" Content="Add" Grid.Column="1" HorizontalAlignment="Left" Margin="291,53,0,0" VerticalAlignment="Top" Width="75" IsDefault="True" Click="btn_add_Click" />
+        <Button x:Name="btn_clear" Content="Clear Scores" Grid.Column="1" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" Width="75" Click="btn_clear_Click" />
+        <Button x:Name="btn_exit" Content="Exit" Grid.Column="1" HorizontalAlignment="Left" Margin="193,261,0,0" VerticalAlignment="Top" Width="75" IsCancel="True" Click="btn_exit_Click"/>
 
     </Grid>
 </Window>
