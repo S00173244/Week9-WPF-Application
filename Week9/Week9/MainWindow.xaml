@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Week9"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Score Calculator" Height="350" Width="525">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="126*"/>
+            <ColumnDefinition Width="391*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lbl_sCount" Content="Score Count:" HorizontalAlignment="Left" Margin="118,127,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label x:Name="lbl_sTotal" Content="Score total:" HorizontalAlignment="Left" Margin="118,96,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label x:Name="lbl_score" Content="Score:" HorizontalAlignment="Left" Margin="118,65,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label x:Name="lbl_average" Content="Average:" HorizontalAlignment="Left" Margin="118,158,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,68,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy1" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,127,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="98,162,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="291,53,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button_Copy" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="button_Copy1" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="193,261,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
