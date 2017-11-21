@@ -8,11 +8,11 @@
         Title="Factorial Calculator" Height="350" Width="525">
     <Grid>
         <Label x:Name="lbl_number" Content="Number:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="93,64,0,0"/>
-        <TextBox x:Name="txt_factorial" HorizontalAlignment="Left" Height="23" Margin="173,102,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Width="296"/>
+        <TextBox x:Name="txt_factorial" HorizontalAlignment="Left" Height="23" Margin="173,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296"/>
         <Button x:Name="btn_calculate" Content="Calculate" HorizontalAlignment="Left" Margin="93,250,0,0" VerticalAlignment="Top" Width="75" IsDefault="True" Click="btn_calculate_Click"/>
         <Label x:Name="lbl_factorial" Content="Factorial:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="93,98,0,0"/>
-        <TextBox x:Name="txt_number" HorizontalAlignment="Left" Height="23" Margin="173,68,0,0" TextWrapping="Wrap" Text="Enter a number" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btn_exit" Content="Exit" HorizontalAlignment="Left" Margin="245,250,0,0" VerticalAlignment="Top" Width="75" IsCancel="True"/>
+        <TextBox x:Name="txt_number" HorizontalAlignment="Left" Height="23" Margin="173,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_exit" Content="Exit" HorizontalAlignment="Left" Margin="245,250,0,0" VerticalAlignment="Top" Width="75" IsCancel="True" Click="btn_exit_Click"/>
 
     </Grid>
 </Window>

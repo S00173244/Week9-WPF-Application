@@ -34,9 +34,14 @@ namespace Factorial
             }
 
             
-            txt_factorial.Text = String.Format("{0: ###,###}", factorial.ToString());
+            txt_factorial.Text = String.Format("{0:n0}", factorial);
             
 
+        }
+
+        private void btn_exit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
